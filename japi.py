@@ -22,6 +22,7 @@ def main():
             f = open('japi.out', 'a')
             f.write("\n"+serverinfo)
         else:
+	    print("Stock Quotes retrieved successfully!")
             f.close()
             exit()
 
